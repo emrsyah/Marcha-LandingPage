@@ -1,12 +1,35 @@
 import React from "react";
 import Hiasan from "../assets/hiasan-1.svg";
+import Typed from "typed.js";
+import {useRef, useEffect} from 'react'
 
 function Hero() {
+  const el = useRef(null)
+  useEffect(() => {
+    const typed = new Typed(el.current, {
+      strings: ["Social", "Friends", "Families", "Groups"], // Strings to display
+      // Speed settings, try diffrent values untill you get good results
+      startDelay: 300,
+      typeSpeed: 120,
+      backSpeed: 80,
+      backDelay: 1200,
+      smartBackspace: true,
+      loop: true,
+      showCursor: false,
+      cursorChar: "|",
+    });
+
+    // Destropying
+    return () => {
+      typed.destroy();
+    };
+  }, []);
+
   return (
     <div className="text-center my-16">
       <div className="relative">
         <h1 className="font-bold text-6xl mb-6 leading-[72px] z-50">
-          All Your <span className="text-purple-600">Social</span>
+          All Your <span className="text-purple-600" ref={el}></span>
           <br />
           Payment Made Easy
         </h1>
