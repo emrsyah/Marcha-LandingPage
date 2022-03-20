@@ -15,7 +15,7 @@ function Navbar() {
         <Link to="/">Home</Link>
         <Link to="/">Contact</Link>
         <Link to="/">About Us</Link>
-        <a href="" className="bg-purple-600 py-2 px-4 rounded text-white font-semibold">Our Youtube</a>
+        <a href="" className="bg-purple-600 py-2 px-4 rounded text-white font-semibold hover:bg-purple-700">Our Youtube</a>
       </div>
     </nav>
   );
