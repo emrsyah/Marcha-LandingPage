@@ -2,9 +2,16 @@
 body{
   font-family: Poppins, sans-serif;
   background-color: #fefefe;
-  
 }
 
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+@layer components{
+  .flex-g-2{
+      @apply 
+  }
+
+}
