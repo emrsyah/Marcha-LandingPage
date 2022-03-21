@@ -1,4 +1,5 @@
 import React from 'react'
+import Faqs from '../components/Faqs'
 import Features from '../components/Features'
 import Hero from '../components/Hero'
 import Navbar from '../components/Navbar'
@@ -12,6 +13,7 @@ function Home() {
         <Hero/>
         <Overview/>
         <Features />
+        <Faqs/>
     </div>
   )
 }
