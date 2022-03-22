@@ -38,7 +38,7 @@ function Index() {
             />
           </div>
         </div>
-        <div className="flex flex-col items-center border-gray-100 rounded-md border-2 max-w-max py-5 px-10">
+        <div className="flex flex-col items-center border-gray-100 rounded-md border-2 max-w-max py-5 px-10 transition-all duration-150 ease-out hover:scale-105">
           <img
             src={hacker}
             className="h-28 w-28 rounded-full object-cover"
@@ -61,7 +61,7 @@ function Index() {
             />
           </div>
         </div>
-        <div className="flex flex-col items-center border-gray-100 rounded-md border-2 max-w-max py-5 px-10">
+        <div className="flex flex-col items-center border-gray-100 rounded-md border-2 max-w-max py-5 px-10 transition-all duration-150 ease-out hover:scale-105">
           <img
             src={hustler}
             className="h-28 w-28 rounded-full object-cover"
