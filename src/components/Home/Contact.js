@@ -4,7 +4,7 @@ import Group1 from "../pictures/asked.svg";
 
 function Contact() {
   return (
-    <div className="mx-20 my-12 flex bg-purple-600 rounded-2xl">
+    <div className="mx-20 my-28 flex bg-purple-600 rounded-2xl">
       <div style={{flexGrow: '3'}} className="flex justify-center flex-col p-8 text-white space-y-4">
         <h2 className="text-4xl font-semibold">Punya Pertanyaan Terkait Marcha?</h2>
         <p>
