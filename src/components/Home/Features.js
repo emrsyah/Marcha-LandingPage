@@ -62,7 +62,7 @@ function Features() {
               />
             </div>
             <div>
-              <h5 className="font-semibold text-lg">Social Media Lookalike</h5>
+              <h5 className="font-semibold text-lg">Social Media Feels</h5>
               <p className="text-gray-600">
                 To boost our user experience, we make it more interactive and
                 fun.
