@@ -1,9 +1,10 @@
 import React from 'react'
-import Faqs from '../components/Faqs'
-import Features from '../components/Features'
-import Hero from '../components/Hero'
+import Faqs from '../components/Home/Faqs'
+import Features from '../components/Home/Features'
+import Hero from '../components/Home/Hero'
 import Navbar from '../components/Navbar'
-import Overview from '../components/Overview'
+import Overview from '../components/Home/Overview'
+import Contact from '../components/Home/Contact'
 
 
 function Home() {
@@ -14,6 +15,7 @@ function Home() {
         <Overview/>
         <Features />
         <Faqs/>
+        <Contact />
     </div>
   )
 }
