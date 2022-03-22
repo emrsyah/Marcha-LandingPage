@@ -4,7 +4,7 @@ import { Icon } from "@iconify/react";
 
 function Footer() {
   return (
-    <div className="border-t-2 border-gray-200">
+    <div className="border-t-2 border-gray-200 mt-32">
       <div className="mx-20 p-6 space-y-12">
         <div className="flex space-x-16 items-start">
           <div className>
