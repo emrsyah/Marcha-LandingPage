@@ -14,7 +14,7 @@ function Index() {
           required
           id=""
           placeholder="Masukkin namamu*"
-          className="border-b-2 pb-1 border-gray-300 w-4/5 focus:outline-none transition-all duration-200 ease-out focus:pb-2 focus:border-purple-600"
+          className="border-b-2 pb-1 border-gray-300 w-4/5 focus:outline-none transition-all duration-200 ease-out focus:pb-4 focus:border-purple-600"
         />
         <input
           type="email"
